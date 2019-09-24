@@ -12,7 +12,7 @@ $storageAccounts = Get-AzureRmStorageAccount
       }
 else{
      $blobs | Select * | Export-Csv C:\temp\unmanagedattached.csv -append -notypembuormation
-       }
-        }
-         }
-          }
+      }
+ }
+   }
+     }
